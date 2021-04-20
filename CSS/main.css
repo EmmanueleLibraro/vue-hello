@@ -39,3 +39,23 @@ body{
     align-items: center; 
     margin-top: 50px;
 }
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.main-img img{
+    width: 250px;
+    margin-right: 20px; 
+}
+
+.main-img img:nth-child(2),
+.main-img img:nth-child(3){
+    height: 320px;
+    width: 400px;
+    border-radius: 5px;
+}
