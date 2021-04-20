@@ -59,3 +59,13 @@ body{
     width: 400px;
     border-radius: 5px;
 }
+
+/* COUNT DOWN */
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Zen Dots', cursive;
+    margin-top: 30px;
+    font-size: 20px;
+}
