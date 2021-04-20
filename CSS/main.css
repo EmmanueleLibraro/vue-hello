@@ -60,12 +60,22 @@ body{
     border-radius: 5px;
 }
 
+/* INFO CLOSED BETA */
+.closed-beta{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Zen Dots', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
 /* COUNT DOWN */
 .countdown-container{
     display: flex;
     justify-content: center;
     align-items: center; 
     font-family: 'Zen Dots', cursive;
-    margin-top: 30px;
+    margin-top: 13px;
     font-size: 20px;
 }
