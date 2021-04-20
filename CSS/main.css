@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: #fff;
+}
+/* IMMAGINE E TESTO */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.main-header img{
+    width: 180px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
